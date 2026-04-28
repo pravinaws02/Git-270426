@@ -1,0 +1,241 @@
+Back to top
+Log events 
+
+Actions
+Start tailing
+Create metric filter
+You can use the filter bar below to search for and match terms, phrases, or values in your log events. Learn more about filter patterns 
+
+Clear
+1m
+30m
+1h
+12h
+
+Custom
+
+Local timezone
+Display
+
+Timestamp
+	
+Message
+
+Timestamp
+	
+Message
+
+No older events at this moment. 
+Retry
+2026-04-11T20:25:48.107+05:30
+INIT_START Runtime Version: python:3.7.v87	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e47d0a3f9db4f99687a0a3ca597d3b36ee6da3cd6cc3fc87082b7e862ba58777
+
+INIT_START Runtime Version: python:3.7.v87 Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e47d0a3f9db4f99687a0a3ca597d3b36ee6da3cd6cc3fc87082b7e862ba58777
+2026-04-11T20:25:48.800+05:30
+START RequestId: f6e33ead-7e73-4bea-993f-0709f5710f05 Version: $LATEST
+
+START RequestId: f6e33ead-7e73-4bea-993f-0709f5710f05 Version: $LATEST
+2026-04-11T20:25:48.801+05:30
+[INFO]	2026-04-11T14:55:48.801Z	f6e33ead-7e73-4bea-993f-0709f5710f05	event: 
+{
+    "Details": {
+        "ContactData": {
+            "Attributes": {
+                "Stage": "Entry",
+                "UserSpecifiedNumber": "+16505986061",
+                "mainContactId": "1d54d614-da3f-4857-88be-1c56e6a99483",
+                "isNumInSalesForce": "false",
+                "surveyFlowEnabled": "true"
+            },
+            "AwsRegion": "us-east-1",
+            "Channel": "VOICE",
+            "ContactId": "1d54d614-da3f-4857-88be-1c56e6a99483",
+            "CustomerEndpoint": {
+                "Address": "+16505986061",
+                "Type": "TELEPHONE_NUMBER"
+            },
+            "CustomerId": null,
+            "Description": null,
+            "InitialContactId": "1d54d614-da3f-4857-88be-1c56e6a99483",
+            "InitiationMethod": "INBOUND",
+            "InstanceARN": "arn:aws:connect:us-east-1:264599287113:instance/7a17a53b-4e24-4615-abe9-6e673d2b1b35",
+            "LanguageCode": "en-US",
+            "MediaStreams": {
+                "Customer": {
+                    "Audio": null
+                }
+            },
+            "Name": null,
+            "PreviousContactId": "1d54d614-da3f-4857-88be-1c56e6a99483",
+            "Queue": null,
+            "References": {},
+            "RelatedContactId": null,
+            "SegmentAttributes": {
+                "connect:Purpose": {
+                    "ValueArn": null,
+                    "ValueInteger": null,
+                    "ValueList": null,
+                    "ValueMap": {
+                        "analytics": {
+                            "ValueArn": null,
+                            "ValueInteger": null,
+                            "ValueList": null,
+                            "ValueMap": null,
+                            "ValueString": null
+                        },
+                        "contact-attributes-search": {
+                            "ValueArn": null,
+                            "ValueInteger": null,
+                            "ValueList": null,
+                            "ValueMap": null,
+                            "ValueString": null
+                        }
+                    },
+                    "ValueString": null
+                },
+                "connect:Subtype": {
+                    "ValueArn": null,
+                    "ValueInteger": null,
+                    "ValueList": null,
+                    "ValueMap": null,
+                    "ValueString": "connect:Telephony"
+                }
+            },
+            "SystemEndpoint": {
+                "Address": "+13462502683",
+                "Type": "TELEPHONE_NUMBER"
+            },
+            "Tags": {
+                "aws:connect:instanceId": "7a17a53b-4e24-4615-abe9-6e673d2b1b35",
+                "aws:connect:systemEndpoint": "+13462502683"
+            }
+        },
+        "Parameters": {
+            "sf_phone": "+16505986061",
+            "sf_fields": "Id, Migration_Status__c, Name, Email, Phone, HomePhone, MobilePhone, OtherPhone, Office_Phone__c, Local_Preferred_Language__c, Portal_User_Name__c, Preferred_Spoken_Language__c, Preferred_Written_Language__c, Account.Ultimate_Parent_AccountId__c, Account.Id, Account.Global_Account_SPT__c, Account.AccountNumber, Account.GSD_Category__c, Account.Source__c, Inactive__c",
+            "sf_operation": "phoneLookup"
+        }
+    },
+    "Name": "ContactFlowEvent"
+}
+
+
+[INFO] 2026-04-11T14:55:48.801Z f6e33ead-7e73-4bea-993f-0709f5710f05 event: {"Details": {"ContactData": {"Attributes": {"Stage": "Entry", "UserSpecifiedNumber": "+16505986061", "mainContactId": "1d54d614-da3f-4857-88be-1c56e6a99483", "isNumInSalesForce": "false", "surveyFlowEnabled": "true"}, "AwsRegion": "us-east-1", "Channel": "VOICE", "ContactId": "1d54d614-da3f-4857-88be-1c56e6a99483", "CustomerEndpoint": {"Address": "+16505986061", "Type": "TELEPHONE_NUMBER"}, "CustomerId": null, "Description": null, "InitialContactId": "1d54d614-da3f-4857-88be-1c56e6a99483", "InitiationMethod": "INBOUND", "InstanceARN": "arn:aws:connect:us-east-1:264599287113:instance/7a17a53b-4e24-4615-abe9-6e673d2b1b35", "LanguageCode": "en-US", "MediaStreams": {"Customer": {"Audio": null}}, "Name": null, "PreviousContactId": "1d54d614-da3f-4857-88be-1c56e6a99483", "Queue": null, "References": {}, "RelatedContactId": null, "SegmentAttributes": {"connect:Purpose": {"ValueArn": null, "ValueInteger": null, "ValueList": null, "ValueMap": {"analytics": {"ValueArn": null, "ValueInteger": null, "ValueList": null, "ValueMap": null, "ValueString": null}, "contact-attributes-search": {"ValueArn": null, "ValueInteger": null, "ValueList": null, "ValueMap": null, "ValueString": null}}, "ValueString": null}, "connect:Subtype": {"ValueArn": null, "ValueInteger": null, "ValueList": null, "ValueMap": null, "ValueString": "connect:Telephony"}}, "SystemEndpoint": {"Address": "+13462502683", "Type": "TELEPHONE_NUMBER"}, "Tags": {"aws:connect:instanceId": "7a17a53b-4e24-4615-abe9-6e673d2b1b35", "aws:connect:systemEndpoint": "+13462502683"}}, "Parameters": {"sf_phone": "+16505986061", "sf_fields": "Id, Migration_Status__c, Name, Email, Phone, HomePhone, MobilePhone, OtherPhone, Office_Phone__c, Local_Preferred_Language__c, Portal_User_Name__c, Preferred_Spoken_Language__c, Preferred_Written_Language__c, Account.Ultimate_Parent_AccountId__c, Account.Id, Account.Global_Account_SPT__c, Account.AccountNumber, Account.GSD_Category__c, Account.Source__c, Inactive__c", "sf_operation": "phoneLookup"}}, "Name": "ContactFlowEvent"}
+2026-04-11T20:25:49.088+05:30
+[INFO]	2026-04-11T14:55:49.088Z	f6e33ead-7e73-4bea-993f-0709f5710f05	Found credentials in environment variables.
+
+[INFO] 2026-04-11T14:55:49.088Z f6e33ead-7e73-4bea-993f-0709f5710f05 Found credentials in environment variables.
+2026-04-11T20:25:49.488+05:30
+[INFO]	2026-04-11T14:55:49.487Z	f6e33ead-7e73-4bea-993f-0709f5710f05	Loading credentials
+
+[INFO] 2026-04-11T14:55:49.487Z f6e33ead-7e73-4bea-993f-0709f5710f05 Loading credentials
+2026-04-11T20:25:49.768+05:30
+[INFO]	2026-04-11T14:55:49.768Z	f6e33ead-7e73-4bea-993f-0709f5710f05	Credentials Loaded
+
+[INFO] 2026-04-11T14:55:49.768Z f6e33ead-7e73-4bea-993f-0709f5710f05 Credentials Loaded
+2026-04-11T20:25:49.768+05:30
+[INFO]	2026-04-11T14:55:49.768Z	f6e33ead-7e73-4bea-993f-0709f5710f05	Salesforce: Sign in
+
+[INFO] 2026-04-11T14:55:49.768Z f6e33ead-7e73-4bea-993f-0709f5710f05 Salesforce: Sign in
+2026-04-11T20:25:49.829+05:30
+[INFO]	2026-04-11T14:55:49.828Z	f6e33ead-7e73-4bea-993f-0709f5710f05	Salesforce: Query
+
+[INFO] 2026-04-11T14:55:49.828Z f6e33ead-7e73-4bea-993f-0709f5710f05 Salesforce: Query
+2026-04-11T20:25:49.829+05:30
+[INFO]	2026-04-11T14:55:49.829Z	f6e33ead-7e73-4bea-993f-0709f5710f05	POST Requests:
+
+[INFO] 2026-04-11T14:55:49.829Z f6e33ead-7e73-4bea-993f-0709f5710f05 POST Requests:
+2026-04-11T20:25:49.829+05:30
+url=https://equinix.my.salesforce.com/services/data/v49.0/parameterizedSearch
+
+url=https://equinix.my.salesforce.com/services/data/v49.0/parameterizedSearch
+2026-04-11T20:25:49.829+05:30
+[INFO]	2026-04-11T14:55:49.829Z	f6e33ead-7e73-4bea-993f-0709f5710f05	data={'q': '+16505986061', 'sobjects': [{'name': 'Contact'}], 'fields': ['Id', 'Migration_Status__c', 'Name', 'Email', 'Phone', 'HomePhone', 'MobilePhone', 'OtherPhone', 'Office_Phone__c', 'Local_Preferred_Language__c', 'Portal_User_Name__c', 'Preferred_Spoken_Language__c', 'Preferred_Written_Language__c', 'Account.Ultimate_Parent_AccountId__c', 'Account.Id', 'Account.Global_Account_SPT__c', 'Account.AccountNumber', 'Account.GSD_Category__c', 'Account.Source__c', 'Inactive__c']}
+
+[INFO] 2026-04-11T14:55:49.829Z f6e33ead-7e73-4bea-993f-0709f5710f05 data={'q': '+16505986061', 'sobjects': [{'name': 'Contact'}], 'fields': ['Id', 'Migration_Status__c', 'Name', 'Email', 'Phone', 'HomePhone', 'MobilePhone', 'OtherPhone', 'Office_Phone__c', 'Local_Preferred_Language__c', 'Portal_User_Name__c', 'Preferred_Spoken_Language__c', 'Preferred_Written_Language__c', 'Account.Ultimate_Parent_AccountId__c', 'Account.Id', 'Account.Global_Account_SPT__c', 'Account.AccountNumber', 'Account.GSD_Category__c', 'Account.Source__c', 'Inactive__c']}
+2026-04-11T20:25:49.829+05:30
+params=None
+
+params=None
+2026-04-11T20:25:50.145+05:30
+[INFO]	2026-04-11T14:55:50.145Z	f6e33ead-7e73-4bea-993f-0709f5710f05	Response: 
+{
+    "searchRecords": []
+}
+
+
+[INFO] 2026-04-11T14:55:50.145Z f6e33ead-7e73-4bea-993f-0709f5710f05 Response: {"searchRecords":[]}
+2026-04-11T20:25:50.145+05:30
+[INFO]	2026-04-11T14:55:50.145Z	f6e33ead-7e73-4bea-993f-0709f5710f05	Salesforce: Query
+
+[INFO] 2026-04-11T14:55:50.145Z f6e33ead-7e73-4bea-993f-0709f5710f05 Salesforce: Query
+2026-04-11T20:25:50.145+05:30
+[INFO]	2026-04-11T14:55:50.145Z	f6e33ead-7e73-4bea-993f-0709f5710f05	POST Requests:
+
+[INFO] 2026-04-11T14:55:50.145Z f6e33ead-7e73-4bea-993f-0709f5710f05 POST Requests:
+2026-04-11T20:25:50.145+05:30
+url=https://equinix.my.salesforce.com/services/data/v49.0/parameterizedSearch
+
+url=https://equinix.my.salesforce.com/services/data/v49.0/parameterizedSearch
+2026-04-11T20:25:50.145+05:30
+[INFO]	2026-04-11T14:55:50.145Z	f6e33ead-7e73-4bea-993f-0709f5710f05	data={'q': '6505986061', 'sobjects': [{'name': 'Contact'}], 'fields': ['Id', 'Migration_Status__c', 'Name', 'Email', 'Phone', 'HomePhone', 'MobilePhone', 'OtherPhone', 'Office_Phone__c', 'Local_Preferred_Language__c', 'Portal_User_Name__c', 'Preferred_Spoken_Language__c', 'Preferred_Written_Language__c', 'Account.Ultimate_Parent_AccountId__c', 'Account.Id', 'Account.Global_Account_SPT__c', 'Account.AccountNumber', 'Account.GSD_Category__c', 'Account.Source__c', 'Inactive__c']}
+
+[INFO] 2026-04-11T14:55:50.145Z f6e33ead-7e73-4bea-993f-0709f5710f05 data={'q': '6505986061', 'sobjects': [{'name': 'Contact'}], 'fields': ['Id', 'Migration_Status__c', 'Name', 'Email', 'Phone', 'HomePhone', 'MobilePhone', 'OtherPhone', 'Office_Phone__c', 'Local_Preferred_Language__c', 'Portal_User_Name__c', 'Preferred_Spoken_Language__c', 'Preferred_Written_Language__c', 'Account.Ultimate_Parent_AccountId__c', 'Account.Id', 'Account.Global_Account_SPT__c', 'Account.AccountNumber', 'Account.GSD_Category__c', 'Account.Source__c', 'Inactive__c']}
+2026-04-11T20:25:50.145+05:30
+params=None
+
+params=None
+2026-04-11T20:25:50.746+05:30
+[INFO]	2026-04-11T14:55:50.746Z	f6e33ead-7e73-4bea-993f-0709f5710f05	Response: 
+{
+    "searchRecords": []
+}
+
+
+[INFO] 2026-04-11T14:55:50.746Z f6e33ead-7e73-4bea-993f-0709f5710f05 Response: {"searchRecords":[]}
+2026-04-11T20:25:50.786+05:30
+[INFO]	2026-04-11T14:55:50.746Z	f6e33ead-7e73-4bea-993f-0709f5710f05	Salesforce: Query
+
+[INFO] 2026-04-11T14:55:50.746Z f6e33ead-7e73-4bea-993f-0709f5710f05 Salesforce: Query
+2026-04-11T20:25:50.786+05:30
+[INFO]	2026-04-11T14:55:50.786Z	f6e33ead-7e73-4bea-993f-0709f5710f05	POST Requests:
+
+[INFO] 2026-04-11T14:55:50.786Z f6e33ead-7e73-4bea-993f-0709f5710f05 POST Requests:
+2026-04-11T20:25:50.786+05:30
+url=https://equinix.my.salesforce.com/services/data/v49.0/parameterizedSearch
+
+url=https://equinix.my.salesforce.com/services/data/v49.0/parameterizedSearch
+2026-04-11T20:25:50.787+05:30
+[INFO]	2026-04-11T14:55:50.786Z	f6e33ead-7e73-4bea-993f-0709f5710f05	data={'q': '16505986061', 'sobjects': [{'name': 'Contact'}], 'fields': ['Id', 'Migration_Status__c', 'Name', 'Email', 'Phone', 'HomePhone', 'MobilePhone', 'OtherPhone', 'Office_Phone__c', 'Local_Preferred_Language__c', 'Portal_User_Name__c', 'Preferred_Spoken_Language__c', 'Preferred_Written_Language__c', 'Account.Ultimate_Parent_AccountId__c', 'Account.Id', 'Account.Global_Account_SPT__c', 'Account.AccountNumber', 'Account.GSD_Category__c', 'Account.Source__c', 'Inactive__c']}
+
+[INFO] 2026-04-11T14:55:50.786Z f6e33ead-7e73-4bea-993f-0709f5710f05 data={'q': '16505986061', 'sobjects': [{'name': 'Contact'}], 'fields': ['Id', 'Migration_Status__c', 'Name', 'Email', 'Phone', 'HomePhone', 'MobilePhone', 'OtherPhone', 'Office_Phone__c', 'Local_Preferred_Language__c', 'Portal_User_Name__c', 'Preferred_Spoken_Language__c', 'Preferred_Written_Language__c', 'Account.Ultimate_Parent_AccountId__c', 'Account.Id', 'Account.Global_Account_SPT__c', 'Account.AccountNumber', 'Account.GSD_Category__c', 'Account.Source__c', 'Inactive__c']}
+2026-04-11T20:25:50.787+05:30
+params=None
+
+params=None
+2026-04-11T20:25:51.107+05:30
+[INFO]	2026-04-11T14:55:51.107Z	f6e33ead-7e73-4bea-993f-0709f5710f05	Response: 
+{
+    "searchRecords": []
+}
+
+
+[INFO] 2026-04-11T14:55:51.107Z f6e33ead-7e73-4bea-993f-0709f5710f05 Response: {"searchRecords":[]}
+2026-04-11T20:25:51.107+05:30
+[INFO]	2026-04-11T14:55:51.107Z	f6e33ead-7e73-4bea-993f-0709f5710f05	result: {'isNumInSalesForce': 'false', 'Phone': None, 'New_Stack': 'false', 'contactId': '', 'usernameList': '', 'Email': '', 'sf_count': 0, 'userAccountList': '{}', 'multipleUsers': '{}'}
+
+[INFO] 2026-04-11T14:55:51.107Z f6e33ead-7e73-4bea-993f-0709f5710f05 result: {'isNumInSalesForce': 'false', 'Phone': None, 'New_Stack': 'false', 'contactId': '', 'usernameList': '', 'Email': '', 'sf_count': 0, 'userAccountList': '{}', 'multipleUsers': '{}'}
+2026-04-11T20:25:51.147+05:30
+END RequestId: f6e33ead-7e73-4bea-993f-0709f5710f05
+
+END RequestId: f6e33ead-7e73-4bea-993f-0709f5710f05
+2026-04-11T20:25:51.147+05:30
+REPORT RequestId: f6e33ead-7e73-4bea-993f-0709f5710f05	Duration: 2347.09 ms	Billed Duration: 3040 ms	Memory Size: 128 MB	Max Memory Used: 61 MB	Init Duration: 692.33 ms	
+
+REPORT RequestId: f6e33ead-7e73-4bea-993f-0709f5710f05 Duration: 2347.09 ms Billed Duration: 3040 ms Memory Size: 128 MB Max Memory Used: 61 MB Init Duration: 692.33 ms
+No newer events at this moment. 
+Auto retry paused.
+ 
+Resume
+ 
+30 events loaded
